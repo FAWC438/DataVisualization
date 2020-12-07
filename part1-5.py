@@ -1,10 +1,5 @@
-import random
-import time
-
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MultipleLocator
+import pandas as pd
 from pandas import DataFrame
 
 df = pd.read_csv('Beijing_reduced_data.csv', encoding='utf-8')

@@ -1,6 +1,5 @@
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
 df = pd.read_csv('data1402.csv', encoding='utf-8', header=None, names=['Score'])
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']  # 用来正常显示中文标签

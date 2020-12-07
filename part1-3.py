@@ -1,9 +1,7 @@
 import random
-import time
 
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 from matplotlib.ticker import MultipleLocator
 from pandas import DataFrame
 
@@ -11,7 +9,7 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']  # 用来正常显示中�
 plt.rcParams['savefig.dpi'] = 300  # 图片像素
 plt.rcParams['figure.dpi'] = 300  # 分辨率
 
-base_list = [j for j in range(10)]
+base_list = [j for j in range(1, 11)]
 list_data = []
 for i in range(3):
     random.shuffle(base_list)
